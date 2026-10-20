@@ -226,7 +226,7 @@ class Promotions
             return null;
         }
         $pt = str_starts_with(app()->getLocale(), 'pt');
-        $t = fn ($en, $ptT) => $pt ? $ptT : $en;
+        $t = fn ($en, $ptT) => class_exists(\Paymenter\Extensions\Others\QsyncAdmin\Support\Texts::class) ? \Paymenter\Extensions\Others\QsyncAdmin\Support\Texts::pick($en, $ptT, $pt) : ($pt ? $ptT : $en);
         $out = [
             'name' => $p['name'],
             'percent' => $p['percent'],

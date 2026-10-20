@@ -16,7 +16,7 @@ use Illuminate\Support\HtmlString;
 #[ExtensionMeta(
     name: 'qsync Pricing',
     description: 'One place to edit prices (BRL, USD…) and stock of many products at once, and to run promotions: a % off for a limited time or for a limited number of orders, applied automatically in the cart.',
-    version: '1.0.0',
+    version: '1.0.1',
     author: 'qsync networks',
     url: 'https://github.com/sagattiger/paymenter-pricing',
     icon: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMwZjE3MmEiLz48cGF0aCBkPSJNMTQgMzRsMTgtMThoMThWMzRMMzIgNTJ6IiBmaWxsPSJub25lIiBzdHJva2U9IiMyMmQzZWUiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjQyIiBjeT0iMjQiIHI9IjQiIGZpbGw9IiMyMmQzZWUiLz48L3N2Zz4=',
